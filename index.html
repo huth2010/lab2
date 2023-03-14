@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Máy tính</h2>
+
+        <form action="/" method="POST">
+            <div class="form-group">
+                <label for="number">So A:</label>
+                <input type="number" step="0.1" class="form-control" id="numberA" placeholder="So A" name="a">
+            </div>
+
+            <div class="form-group">
+                <label for="number">So B:</label>
+                <input type="number" step="0.1" class="form-control" id="numberB" placeholder="So b" name="b">
+            </div>
+
+            <select class="form-select" id="sel1" name="phepTinh">
+              <option value="+" selected>+</option>
+              <option value="-">-</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
+            </select>
+
+            <button type="submit" class="btn btn-success" name="submit">Kết quả</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
